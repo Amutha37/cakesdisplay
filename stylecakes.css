@@ -4,13 +4,13 @@ body {
 }
 .textset h2 {
   color: #bb2481;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 2rem;
   /* letter-spacing: 0.8; */
 }
 .textset p {
   color: #f498b8;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 1.25rem;
   line-height: 1.5;
 }
@@ -23,10 +23,11 @@ body {
 }
 #mainNavbar {
   font-style: 1.5rem;
-  font-weight: 100;
+  font-weight: 300;
 }
 #mainNavbar .nav-link {
-  color: rgb(231, 221, 221);
+  color: rgb(243, 188, 188);
+  font-weight: 300;
 }
 #mainNavbar .nav-link:hover {
   color: rgb(235, 35, 85);
@@ -43,13 +44,13 @@ body {
   color: #5e1212;
 }
 #headingCake h1 {
-  font-weight: 100;
+  font-weight: 300;
   font-size: 4rem;
 }
 @media (max-width: 1200px) {
   #headingCake h1,
   .textset {
-    font-weight: 100;
+    font-weight: 200;
     font-size: 2rem;
   }
   .textset {
@@ -59,11 +60,22 @@ body {
 @media (max-width: 430px) {
   .textset {
     text-align: center;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 5px;
   }
 }
 .navbar.scrolled {
   background-color: rgb(241, 177, 177);
   transition: background 1ms;
+}
+/* change betwwen the width size */
+@media (min-width: 0px) and (max-width: 375px) {
+  .image1 {
+    width: 200px;
+  }
+
+  footer {
+    padding-top: 72%;
+    font-size: 15px;
+  }
 }

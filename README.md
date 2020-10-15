@@ -10,4 +10,4 @@
 7.  Using container fluid for full horizontal screen display
 8.  Display contain 50 50 so use col-6 -->
 9.  Class="img-fluid" boostrap image grid system scales the image
-    < !-- Thanks to Steel Colt I have finished with the cake display using flexbox and grid >
+    < !-- Thanks to Steel Colt my bootcamp instructor, I have finished with the cake display using flexbox and grid >
