@@ -1,1 +1,276 @@
-Hello World
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="stylecakes.css" />
+
+    <title>Museum of Cakes</title>
+  </head>
+
+  <body>
+    <!-- data-target and button id have to matched  -->
+    <!-- aria-label is for labelling what the bugger button does -->
+    <!-- navbar=collapse collapses the list below brand withouf if right most  -->
+    <!-- py-0 padding y x  -->
+    <!-- fixed-top for navbar to stick on scroll screen -->
+    <nav
+      id="mainNavbar"
+      class="navbar navbar-dark navbar-expand-md py-0 fixed-top"
+    >
+      <a href="#" class="navbar-brand">CAKES</a>
+      <button
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#navLinks"
+        aria--label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navLinks">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a href="" class="nav-link">HOME</a></li>
+          <li class="nav-item"><a href="" class="nav-link">CUP CAKES</a></li>
+          <li class="nav-item">
+            <a href="" class="nav-link">BIRTHDAY CAKES</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- using container fluid for full horizontal screen display  -->
+    <!-- display contain 50 50 so use col-6  -->
+    <!-- <img class="img-fluid" boostrap image grid system scales the image  -->
+    <!--  px-0 padding right and left 0  -->
+    <!-- class="row align-items-center" align the items center in this cake picture the text on the right will be on the center -->
+    <!-- <div class="col-lg-6"> change it to display  2 column or 50 50 only at large screen  -->
+    <!--  -->
+    <!--   d-none d-lg-block" = display text onlyy at large screen otherwise hide content -->
+    <section class="container-fluid px-0 mt-5">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div
+            id="headingCake"
+            class="text-white text-center d-none d-lg-block"
+          >
+            <h1>MUSEUM OF <span>CAKES</span></h1>
+            <h1>MUSEUM OF <span>CAKES</span></h1>
+            <h1>MUSEUM OF <span>CAKES</span></h1>
+            <h1>HEALTHY <span> CAKES </span> AND APPEALING</h1>
+            <h1><span>TREAT </span> FOR WEDDING AND ALL OCCATIONS.</h1>
+          </div>
+        </div>
+        <div class="col-6">
+          <img class="img-fluid" src="images/cake1.jpeg" alt="" width="100%" />
+        </div>
+      </div>
+    </section>
+
+    <!--  cake 1 -->
+    <!-- align-items-center is flex utiliy  -->
+    <!-- order-2 order-md-1" = order 2 place it always second but when at medium stay first  -->
+    <section class="container-fluid px-0">
+      <div class="row align-items-center content">
+        <div class="col-md-6 order-2 order-md-1">
+          <img class="img-fluid" src="images/cup1.jpeg" alt="" width="100%" />
+        </div>
+        <div class="col-md-6 text-center order-1 order-md-2">
+          <div class="row justify-content-center">
+            <div class="col-10 col-lg-8 textset blurb mb-5 mb-md-0">
+              <h2>MUSEUM OF CAKES</h2>
+              <i
+                class="far fa-birthday-cake fa-2x text-danger d-none d-lg-inline"
+              ></i>
+              <p class="lead">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. In
+                beatae debitis laborum dolore veniam molestias rem consequatur
+                atque sunt quibusdam! Lorem ipsum dolor sit, amet consectetur
+                adipisicing elit. In beatae debitis laborum dolore veniam
+                molestias rem consequatur atque sunt quibusdam! adipisicing
+                elit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- cake 2  -->
+
+      <div class="row align-items-center content">
+        
+        <div class="col-md-6 text-center">
+          <div class="row justify-content-center">
+            <div class="col-10 col-lg-8 textset blurb mb-5 mb-md-0">
+              <h2>MUSEUM OF CAKES</h2>
+              <i
+                class="far fa-birthday-cake fa-2x text-danger d-none d-lg-inline"
+              ></i>
+              <p class="lead">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. In
+                beatae debitis laborum dolore veniam molestias rem consequatur
+                atque sunt quibusdam! Lorem ipsum dolor sit, amet consectetur
+                adipisicing elit. In beatae debitis laborum dolore veniam
+                molestias rem consequatur atque sunt quibusdam! adipisicing
+                elit.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img class="img-fluid" src="images/cake2.jpeg" alt="" width="100%" />
+        </div>
+      </div>
+<!-- cake 3 -->
+<div class="row align-items-center content">
+  <div class="col-md-6 order-2 order-md-1">
+    <img class="img-fluid" src="images/cup2.jpeg" alt="" width="100%" />
+  </div>
+  <div class="col-md-6 text-center order-1 order-md-2">
+    <div class="row justify-content-center">
+      <div class="col-10 col-lg-8 textset blurb mb-5 mb-md-0">
+        <h2>MUSEUM OF CAKES</h2>
+        <i
+          class="far fa-birthday-cake fa-2x text-danger d-none d-lg-inline"
+        ></i>
+        <p class="lead">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. In
+          beatae debitis laborum dolore veniam molestias rem consequatur
+          atque sunt quibusdam! Lorem ipsum dolor sit, amet consectetur
+          adipisicing elit. In beatae debitis laborum dolore veniam
+          molestias rem consequatur atque sunt quibusdam! adipisicing
+          elit.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- cake 4 -->
+<div class="row align-items-center content">
+        
+  <div class="col-md-6 text-center">
+    <div class="row justify-content-center">
+      <div class="col-10 col-lg-8 textset blurb mb-5 mb-md-0">
+        <h2>MUSEUM OF CAKES</h2>
+        <i
+          class="far fa-birthday-cake fa-2x text-danger d-none d-lg-inline"
+        ></i>
+        <p class="lead">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. In
+          beatae debitis laborum dolore veniam molestias rem consequatur
+          atque sunt quibusdam! Lorem ipsum dolor sit, amet consectetur
+          adipisicing elit. In beatae debitis laborum dolore veniam
+          molestias rem consequatur atque sunt quibusdam! adipisicing
+          elit.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <img class="img-fluid" src="images/cup3.jpeg" alt="" width="100%" />
+  </div>
+</div>
+
+<!-- cake 5 -->
+<div class="row align-items-center content">
+  <div class="col-md-6 order-2 order-md-1">
+    <img class="img-fluid" src="images/cake4.jpeg" alt="" width="100%" />
+  </div>
+  <div class="col-md-6 text-center order-1 order-md-2">
+    <div class="row justify-content-center">
+      <div class="col-10 col-lg-8 textset blurb mb-5 mb-md-0">
+        <h2>MUSEUM OF CAKES</h2>
+        <i
+          class="far fa-birthday-cake fa-2x text-danger d-none d-lg-inline"
+        ></i>
+        <p class="lead">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. In
+          beatae debitis laborum dolore veniam molestias rem consequatur
+          atque sunt quibusdam! Lorem ipsum dolor sit, amet consectetur
+          adipisicing elit. In beatae debitis laborum dolore veniam
+          molestias rem consequatur atque sunt quibusdam! adipisicing
+          elit.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- cake6  -->
+<div class="row align-items-center content">
+        
+  <div class="col-md-6 text-center">
+    <div class="row justify-content-center">
+      <div class="col-10 col-lg-8 textset blurb mb-5 mb-md-0">
+        <h2>MUSEUM OF CAKES</h2>
+        <i
+          class="far fa-birthday-cake fa-2x text-danger d-none d-lg-inline"
+        ></i>
+        <p class="lead">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. In
+          beatae debitis laborum dolore veniam molestias rem consequatur
+          atque sunt quibusdam! Lorem ipsum dolor sit, amet consectetur
+          adipisicing elit. In beatae debitis laborum dolore veniam
+          molestias rem consequatur atque sunt quibusdam! adipisicing
+          elit.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <img class="img-fluid" src="images/cup4.jpeg" alt="" width="100%" />
+  </div>
+</div>
+      </div>
+    </section>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      // scroll and toggleClass fron jquery 
+      $(function() {
+        $(document).scroll(function(){
+          let $nav = $("#mainNavbar");
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        })
+      });
+    </script>
+  </body>
+</html>
